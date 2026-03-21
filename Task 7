@@ -1,0 +1,17 @@
+/// Task 7
+import java.util.Scanner;
+public class Main {
+    public static void reverse(int n, Scanner sc) {
+        if (n == 0)
+            return;
+        int x = sc.nextInt();
+        reverse(n - 1, sc);
+        System.out.print(x + " ");
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        reverse(n, sc);
+    }
+}
