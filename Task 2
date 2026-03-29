@@ -1,26 +1,15 @@
-/// Task 2
 import java.util.Scanner;
 public class Main {
-    public static void input(int[] arr, int i, Scanner sc) {
-        if (i == arr.length)
-            return;
-        arr[i] = sc.nextInt();
-        input(arr, i + 1, sc);
-    }
-
-    public static int sum(int[] arr, int n) {
+    static int sum(int n, Scanner sc) {
         if (n == 0)
             return 0;
-        return arr[n - 1] + sum(arr, n - 1);
+        return sc.nextInt() + sum(n - 1, sc);
     }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int[] arr = new int[n];
-        input(arr, 0, sc);
-        int total = sum(arr, n);
-        double average = (double) total / n;
+        double average = (double) sum(n, sc) / n;
         System.out.println(average);
     }
 }
