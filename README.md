@@ -7,8 +7,8 @@ Task 1
 The base case of recursion is when the index reaches the length of the string. Each recursive call processes one character and moves to the next position. This allows printing all digits without using loops.
 
 Task 2 
-<img width="1919" height="985" alt="Снимок экрана 2026-03-21 195419" src="https://github.com/user-attachments/assets/605cab0e-1bf2-41b4-9083-586e16caad3f" />
-The base case is when the number of elements becomes zero. Each recursive call adds one element of the array to the result. Finally, the sum is divided by the number of elements to calculate the average.
+<img width="1919" height="1015" alt="Screenshot 2026-03-29 195455" src="https://github.com/user-attachments/assets/971110a2-0e5b-43fe-9b48-239a33592a0b" />
+The base case is when n becomes 0. Each recursive call reads one number from the input and adds it to the result. The function keeps calling itself until all numbers are processed. Finally, the total sum is divided by n to calculate the average.
 
 Task 3 
 <img width="1919" height="1020" alt="Снимок экрана 2026-03-21 200111" src="https://github.com/user-attachments/assets/d26be1d1-9c86-4004-a6d2-438f7fe9c4dc" />
