@@ -45,3 +45,12 @@ Task 10
 <img width="1919" height="1016" alt="Снимок экрана 2026-03-21 212018" src="https://github.com/user-attachments/assets/daaab968-df7c-46bc-867d-8a11caf82ae0" />
 The base case occurs when b equals 0. Each recursive call replaces the pair (a, b) with (b, a % b), reducing the problem size until the result is found.
 
+Assignment 2
+
+![Screenshot 2026-04-12 184540.png](../../Pictures/Screenshots/Screenshot%202026-04-12%20184540.png)
+
+![Screenshot 2026-04-12 184616.png](../../Pictures/Screenshots/Screenshot%202026-04-12%20184616.png)
+
+![Screenshot 2026-04-12 184634.png](../../Pictures/Screenshots/Screenshot%202026-04-12%20184634.png)
+
+![Screenshot 2026-04-12 184649.png](../../Pictures/Screenshots/Screenshot%202026-04-12%20184649.png)
