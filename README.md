@@ -47,10 +47,10 @@ The base case occurs when b equals 0. Each recursive call replaces the pair (a, 
 
 Assignment 2
 
-![Screenshot 2026-04-12 184540.png](../../Pictures/Screenshots/Screenshot%202026-04-12%20184540.png)
+<img width="1915" height="1015" alt="Screenshot 2026-04-12 184540" src="https://github.com/user-attachments/assets/fa106444-e664-41dc-ac57-04cc57793d3f" />
 
-![Screenshot 2026-04-12 184616.png](../../Pictures/Screenshots/Screenshot%202026-04-12%20184616.png)
+<img width="1919" height="1022" alt="Screenshot 2026-04-12 184616" src="https://github.com/user-attachments/assets/5e2db454-b51f-4758-9d2b-6cabece4b028" />
 
-![Screenshot 2026-04-12 184634.png](../../Pictures/Screenshots/Screenshot%202026-04-12%20184634.png)
+<img width="1919" height="1012" alt="Screenshot 2026-04-12 184634" src="https://github.com/user-attachments/assets/fd1a3be6-1b4d-4035-9ede-82b95782660d" />
 
-![Screenshot 2026-04-12 184649.png](../../Pictures/Screenshots/Screenshot%202026-04-12%20184649.png)
+<img width="1919" height="1023" alt="Screenshot 2026-04-12 184649" src="https://github.com/user-attachments/assets/e9d0db15-8dc1-4fc9-a0d0-e93ccc5ad38b" />
