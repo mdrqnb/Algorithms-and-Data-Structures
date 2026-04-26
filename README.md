@@ -11,15 +11,12 @@ This project implements and compares three algorithms:
 
 The goal is to measure execution time for different array sizes and compare performance based on input type.
 
----
-
 ## Selected Algorithms
 
 - Basic Sorting: Bubble Sort  
 - Advanced Sorting: Quick Sort  
 - Searching: Binary Search  
 
----
 
 ## Algorithm Descriptions
 
@@ -30,8 +27,6 @@ Bubble Sort compares adjacent elements and swaps them if they are in the wrong o
 - Average Case: O(n²)  
 - Worst Case: O(n²)  
 
----
-
 ### Quick Sort
 Quick Sort selects a pivot and partitions the array into smaller parts, then sorts them recursively.
 
@@ -39,15 +34,11 @@ Quick Sort selects a pivot and partitions the array into smaller parts, then sor
 - Average Case: O(n log n)  
 - Worst Case: O(n²)  
 
----
-
 ### Binary Search
 Binary Search finds an element in a sorted array by repeatedly dividing the search space in half.
 
 - Best Case: O(1)  
 - Worst Case: O(log n)  
-
----
 
 ## Experimental Results
 
@@ -59,8 +50,6 @@ Binary Search finds an element in a sorted array by repeatedly dividing the sear
 | 100       | Sorted     | 5700             | 310600          | 1500               |
 | 1000      | Random     | 6728800          | 141300          | 3600               |
 | 1000      | Sorted     | 10100            | 1935300         | 3600               |
-
----
 
 ## Analysis
 
@@ -74,14 +63,10 @@ The results generally match the expected Big-O complexity. Bubble Sort behaves a
 
 Binary Search was very fast in all cases because it uses O(log n) time complexity. It requires a sorted array because it compares the middle element and decides which half to search.
 
----
-
 ## Screenshots
 
 <img width="687" height="653" alt="Screenshot 2026-04-20 180038" src="https://github.com/user-attachments/assets/436640b8-db03-4cee-afa9-8761c030c68e" />
 <img width="459" height="485" alt="Screenshot 2026-04-20 180044" src="https://github.com/user-attachments/assets/e6bee660-e9c2-412c-83bb-2732916fb3b2" />
-
----
 
 ## Reflection
 
