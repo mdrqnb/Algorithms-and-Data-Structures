@@ -2,55 +2,89 @@
 Name : Korganbek Madiyar 
 Group : IT - 2501 
 
-Task 1 
-<img width="1809" height="925" alt="Снимок экрана 2026-03-20 163815" src="https://github.com/user-attachments/assets/749d8eb1-52fc-47e0-8fcf-9a3327130de3" />
-The base case of recursion is when the index reaches the length of the string. Each recursive call processes one character and moves to the next position. This allows printing all digits without using loops.
+## Project Overview
 
-Task 2 
-<img width="1919" height="1015" alt="Screenshot 2026-03-29 195455" src="https://github.com/user-attachments/assets/971110a2-0e5b-43fe-9b48-239a33592a0b" />
-The base case is when n becomes 0. Each recursive call reads one number from the input and adds it to the result. The function keeps calling itself until all numbers are processed. Finally, the total sum is divided by n to calculate the average.
+This project implements and compares three algorithms:
+- Bubble Sort (basic sorting)
+- Quick Sort (advanced sorting)
+- Binary Search (searching)
 
-Task 3 
-<img width="1919" height="1020" alt="Снимок экрана 2026-03-21 200111" src="https://github.com/user-attachments/assets/d26be1d1-9c86-4004-a6d2-438f7fe9c4dc" />
-The base case is when the divisor reaches the number itself. Each recursive call checks whether the number is divisible by the current value. If a divisor is found, the function returns false.
+The goal is to measure execution time for different array sizes and compare performance based on input type.
 
-Task 4 
-<img width="1919" height="1021" alt="Снимок экрана 2026-03-21 200357" src="https://github.com/user-attachments/assets/089e0146-3527-4a20-af2c-8f92e393ee26" />
-The base case is when n equals 0 or 1. Each recursive call reduces the problem size by 1 and multiplies the result.
+---
 
-Task 5 
-<img width="1919" height="1021" alt="Снимок экрана 2026-03-21 200645" src="https://github.com/user-attachments/assets/cd4557fc-6b0f-4539-afe7-0f12dd18db09" />
-The base cases are when n equals 0 or 1. Each recursive call calculates the sum of the previous two Fibonacci numbers.
+## Selected Algorithms
 
-Task 6 
-<img width="1919" height="1023" alt="Снимок экрана 2026-03-21 200910" src="https://github.com/user-attachments/assets/52c78374-6977-4774-a473-57135493a673" />
-The base case is when n equals 0. Each recursive call multiplies the number by the result of the function with n-1.
+- Basic Sorting: Bubble Sort  
+- Advanced Sorting: Quick Sort  
+- Searching: Binary Search  
 
-Task 7 
-<img width="1919" height="1019" alt="Снимок экрана 2026-03-21 201126" src="https://github.com/user-attachments/assets/92062d05-62b1-4a0d-b200-701d3b37a137" />
-The base case is when n equals 0. Each recursive call reads a number, and after all recursive calls finish, the numbers are printed in reverse order.
+---
 
-Task 8 
-<img width="1908" height="1006" alt="Снимок экрана 2026-03-21 210948" src="https://github.com/user-attachments/assets/4dc17555-de32-4462-a4a5-cc3476aeb991" />
-<img width="1919" height="1012" alt="image" src="https://github.com/user-attachments/assets/8efa40b0-a5ef-4c5e-8faf-807258010d3f" />
-The base case is when the index reaches the end of the string. Each recursive call checks one character. If a non-digit is found, the function returns false.
+## Algorithm Descriptions
 
-Task 9 
-<img width="1919" height="1017" alt="image" src="https://github.com/user-attachments/assets/f25842ce-b4fd-4fdc-9e8c-8cbb9f71d0a3" />
-<img width="1911" height="1013" alt="image" src="https://github.com/user-attachments/assets/97920dd1-ee31-4f78-90f5-a7433d0bc6c6" />
-The base case is when the index reaches the length of the string. Each recursive call counts one character and moves forward.
+### Bubble Sort
+Bubble Sort compares adjacent elements and swaps them if they are in the wrong order.
 
-Task 10 
-<img width="1919" height="1016" alt="image" src="https://github.com/user-attachments/assets/94b2e3f4-6724-45ff-9b31-6420e7bf1a75" />
-<img width="1919" height="1016" alt="Снимок экрана 2026-03-21 212018" src="https://github.com/user-attachments/assets/daaab968-df7c-46bc-867d-8a11caf82ae0" />
-The base case occurs when b equals 0. Each recursive call replaces the pair (a, b) with (b, a % b), reducing the problem size until the result is found.
+- Best Case: O(n)  
+- Average Case: O(n²)  
+- Worst Case: O(n²)  
 
-Assignment 2
+---
 
-![Screenshot 2026-04-12 184540.png](../../Pictures/Screenshots/Screenshot%202026-04-12%20184540.png)
+### Quick Sort
+Quick Sort selects a pivot and partitions the array into smaller parts, then sorts them recursively.
 
-![Screenshot 2026-04-12 184616.png](../../Pictures/Screenshots/Screenshot%202026-04-12%20184616.png)
+- Best Case: O(n log n)  
+- Average Case: O(n log n)  
+- Worst Case: O(n²)  
 
-![Screenshot 2026-04-12 184634.png](../../Pictures/Screenshots/Screenshot%202026-04-12%20184634.png)
+---
 
-![Screenshot 2026-04-12 184649.png](../../Pictures/Screenshots/Screenshot%202026-04-12%20184649.png)
+### Binary Search
+Binary Search finds an element in a sorted array by repeatedly dividing the search space in half.
+
+- Best Case: O(1)  
+- Worst Case: O(log n)  
+
+---
+
+## Experimental Results
+
+| Array Size | Input Type | Bubble Sort (ns) | Quick Sort (ns) | Binary Search (ns) |
+|-----------|------------|------------------|-----------------|--------------------|
+| 10        | Random     | 8700             | 6900            | 2700               |
+| 10        | Sorted     | 1000             | 4000            | 2700               |
+| 100       | Random     | 320000           | 51300           | 1500               |
+| 100       | Sorted     | 5700             | 310600          | 1500               |
+| 1000      | Random     | 6728800          | 141300          | 3600               |
+| 1000      | Sorted     | 10100            | 1935300         | 3600               |
+
+---
+
+## Analysis
+
+Quick Sort performed much faster than Bubble Sort on random arrays, especially for large input sizes. For example, at size 1000, Bubble Sort took significantly more time compared to Quick Sort. This is because Quick Sort has an average time complexity of O(n log n), while Bubble Sort is O(n²).
+
+As the array size increased, Bubble Sort became much slower. This confirms that inefficient algorithms do not scale well with large data.
+
+Sorted arrays improved the performance of Bubble Sort significantly, because fewer swaps were needed. However, Quick Sort became slower on sorted arrays. This is due to poor pivot selection (last element), which causes unbalanced partitions.
+
+The results generally match the expected Big-O complexity. Bubble Sort behaves as O(n²), while Quick Sort behaves closer to O(n log n) on random data.
+
+Binary Search was very fast in all cases because it uses O(log n) time complexity. It requires a sorted array because it compares the middle element and decides which half to search.
+
+---
+
+## Screenshots
+
+<img width="687" height="653" alt="Screenshot 2026-04-20 180038" src="https://github.com/user-attachments/assets/436640b8-db03-4cee-afa9-8761c030c68e" />
+<img width="459" height="485" alt="Screenshot 2026-04-20 180044" src="https://github.com/user-attachments/assets/e6bee660-e9c2-412c-83bb-2732916fb3b2" />
+
+---
+
+## Reflection
+
+In this project, I learned how algorithm performance changes depending on input size and data type. Bubble Sort is easy to implement but becomes very slow for large datasets. Quick Sort is much more efficient for large random arrays.
+
+I also learned that algorithm performance can vary depending on implementation details. For example, Quick Sort performed worse on sorted arrays due to pivot selection. This helped me understand the importance of both theoretical complexity and practical behavior.
