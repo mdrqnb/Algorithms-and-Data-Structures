@@ -4,24 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4268dd5c-95aa-4dc8-8ecf-1c86c1ede384" name="Changes" comment="Assignment 1">
-      <change afterPath="$PROJECT_DIR$/src/Experiment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Searcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorter.java" afterDir="false" />
+    <list default="true" id="4268dd5c-95aa-4dc8-8ecf-1c86c1ede384" name="Changes" comment="1">
+      <change afterPath="$PROJECT_DIR$/src/Edge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vertex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2-ADS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms and Data Structures.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task 1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task 10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task 2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task 3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task 4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task 5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task 6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task 7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task 8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task 9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Experiment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Experiment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Searcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorter.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,26 +53,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Users/Acer/IdeaProjects/Algorithms and Data Structures/src",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/Acer/IdeaProjects/Algorithms and Data Structures/src/Main.java",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/Acer/IdeaProjects/Algorithms and Data Structures/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Acer/IdeaProjects/Algorithms and Data Structures/docs/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -122,7 +115,13 @@
       <workItem from="1775999886332" duration="1771000" />
       <workItem from="1776189476147" duration="2094000" />
       <workItem from="1776236882184" duration="5584000" />
-      <workItem from="1776689538730" duration="411000" />
+      <workItem from="1776689538730" duration="1012000" />
+      <workItem from="1777199477281" duration="36000" />
+      <workItem from="1777394680990" duration="3417000" />
+      <workItem from="1777445893150" duration="5204000" />
+      <workItem from="1778400051953" duration="1160000" />
+      <workItem from="1778402953630" duration="1782000" />
+      <workItem from="1778418514996" duration="1213000" />
     </task>
     <task id="LOCAL-00001" summary="add README">
       <option name="closed" value="true" />
@@ -220,7 +219,23 @@
       <option name="project" value="LOCAL" />
       <updated>1776002131162</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Assignment 3">
+      <option name="closed" value="true" />
+      <created>1776690104087</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1776690104087</updated>
+    </task>
+    <task id="LOCAL-00014" summary="1">
+      <option name="closed" value="true" />
+      <created>1776690314084</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1776690314084</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,10 +259,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add README" />
-    <MESSAGE value="1" />
     <MESSAGE value="0" />
     <MESSAGE value="Assignment" />
     <MESSAGE value="Assignment 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment 1" />
+    <MESSAGE value="Assignment 3" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/docs/src/Main.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
