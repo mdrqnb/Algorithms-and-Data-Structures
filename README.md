@@ -89,7 +89,7 @@ Execution time is measured using:
 ```java
 long start = System.nanoTime();
 long end = System.nanoTime();
-
-<img width="1871" height="929" alt="Screenshot 2026-05-10 183243" src="https://github.com/user-attachments/assets/aaa32533-95f3-4ad0-bbe7-7c3f1c7db9c3" />
-<img width="1825" height="931" alt="Screenshot 2026-05-10 183251" src="https://github.com/user-attachments/assets/7551ddd0-f41b-4511-b856-1ebd8571feea" />
+``` 
+<img width="1871" height="929" alt="Screenshot 2026-05-10 183243" src="https://github.com/user-attachments/assets/918ed08b-21b9-43d0-8d9d-05da58e633cb" />
+<img width="1825" height="931" alt="Screenshot 2026-05-10 183251" src="https://github.com/user-attachments/assets/2ecf0bfa-a964-4a3d-80c6-6e02e7edda77" />
 
